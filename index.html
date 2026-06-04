@@ -1,19 +1,165 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>思迪普轴承油封大全</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>思迪普轴承油封大全</title>
 
-    <link rel="stylesheet"href="style.css">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Microsoft YaHei",sans-serif;
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:#0057b8;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+
+.logo{
+    max-width:180px;
+    max-height:80px;
+    margin-bottom:10px;
+}
+
+header h1{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:15px;
+}
+
+.banner{
+    height:450px;
+    overflow:hidden;
+}
+
+.banner img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    padding:60px 0;
+}
+
+.title{
+    text-align:center;
+    color:#0057b8;
+    font-size:32px;
+    margin-bottom:40px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.image-box{
+    height:220px;
+    overflow:hidden;
+}
+
+.image-box img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.card h3{
+    text-align:center;
+    padding:15px;
+}
+
+.about{
+    background:#fff;
+    padding:40px;
+    border-radius:12px;
+    line-height:2;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.contact-box{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 24px;
+    background:#0057b8;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.map-box{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    line-height:2;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+footer{
+    background:#0057b8;
+    color:#fff;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
     <img src="images/logo.png" class="logo" alt="SDP Logo">
+
     <h1>思迪普轴承油封大全</h1>
-    <p>专业经营轴承 · 油封 · 导轨滑块 · 光轴 · 瓦盒</p>
+
+    <p>
+        专业经营轴承 · 油封 · 导轨滑块 · 光轴 · 瓦盒
+    </p >
 </header>
 
 <section class="banner">
@@ -29,16 +175,44 @@
 
 <div class="card">
     <div class="image-box">
-        <img src="images/bearing1.jpg" alt="">
+        <img src="images/bearing1.jpg" alt="外球面轴承">
     </div>
     <h3>外球面轴承</h3>
 </div>
 
 <div class="card">
     <div class="image-box">
-        <img src="images/bearing2.jpg" alt="">
+        <img src="images/bearing2.jpg" alt="深沟球轴承">
     </div>
     <h3>深沟球轴承</h3>
+</div>
+
+<div class="card">
+    <div class="image-box">
+        <img src="images/bearing1.jpg" alt="油封">
+    </div>
+    <h3>油封密封件</h3>
+</div>
+
+<div class="card">
+    <div class="image-box">
+        <img src="images/bearing2.jpg" alt="导轨滑块">
+    </div>
+    <h3>导轨滑块</h3>
+</div>
+
+<div class="card">
+    <div class="image-box">
+        <img src="images/bearing1.jpg" alt="光轴">
+    </div>
+    <h3>光轴</h3>
+</div>
+
+<div class="card">
+    <div class="image-box">
+        <img src="images/bearing2.jpg" alt="瓦盒">
+    </div>
+    <h3>瓦盒及配件</h3>
 </div>
 
 </div>
@@ -52,6 +226,10 @@
 
 <div class="about">
 思迪普轴承油封大全位于山东省临沂市河东区，是一家专业从事轴承及工业传动配件销售与服务的综合供应商。
+
+公司长期经营外球面轴承、深沟球轴承、调心轴承、油封、导轨滑块、光轴、瓦盒等产品，规格齐全、库存充足，广泛应用于机械制造、矿山设备、输送设备、农业机械及自动化设备等领域。
+
+公司始终坚持品质为先、诚信经营、客户至上的服务理念，支持批发零售，可开具发票，为广大客户提供专业、高效的一站式采购服务。
 </div>
 
 </div>
@@ -66,24 +244,38 @@
 
 <div class="contact-box">
     <h3>联系电话</h3>
-    <p>15689572488</p>
-    <a href="tel:15689572488" class="btn">立即拨打</a>
+    <p>15689572488</p >
+    <a href=" " class="btn">立即拨打</a >
 </div>
 
 <div class="contact-box">
     <h3>联系电话</h3>
-    <p>18369569323</p>
-    <a href="tel:18369569323" class="btn">立即拨打</a>
+    <p>18369569323</p >
+    <a href=" " class="btn">立即拨打</a >
 </div>
 
 </div>
 </div>
 </section>
 
+<section class="section">
+<div class="container">
+
+<h2 class="title">门店地址</h2>
+
+<div class="map-box">
+山东省临沂市河东区凤凰大街与温泉路交汇处北200米<br>
+山东天同沿街北区<br>
+思迪普轴承油封大全
+</div>
+
+</div>
+</section>
+
 <footer>
 <h3>思迪普轴承油封大全</h3>
-<p>规格齐全 · 现货供应 · 支持批发零售</p>
-<p>电话：15689572488 / 18369569323</p>
+<p>规格齐全 · 现货供应 · 支持批发零售</p >
+<p>电话：15689572488 / 18369569323</p >
 </footer>
 
 </body>
