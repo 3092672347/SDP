@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Microsoft YaHei", sans-serif;
+}
+
+.image-box{
+    width:100%;
+    text-align:center;
+    margin:20px 0;
+}
+
+.image-box img{
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
